@@ -22,6 +22,11 @@ const menus = [
     to: "/products",
     exact: false,
   },
+  {
+    name: "Đăng nhập",
+    to: "/login",
+    exact: false,
+  },
 ];
 
 const showMenus = (menus) => {

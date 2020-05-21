@@ -46,7 +46,8 @@ const itemProduct = (products, match) => {
 };
 
 const Products = (props) => {
-  var { match } = props;
+  var { match, location } = props;
+  console.log(location)
   return (
     <div className="container">
       <h1>Danh sach san pham</h1>
